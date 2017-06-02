@@ -1,0 +1,16 @@
+{
+  "name": "drdesignremodel",
+  "version": "1.0.0",
+  "description": "test to serve static files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "HH Harvey",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2"
+  }
+}
