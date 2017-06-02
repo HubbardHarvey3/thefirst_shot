@@ -21,7 +21,7 @@ nav>div.container{
 }
 
 .sticky {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 1);
 	border-bottom: solid 5px black;
 	color:black;
 	width:100%;
@@ -49,9 +49,11 @@ nav>div.container{
 	border-radius: 10px;
 	margin:10px 10px;
 	color:white;
-	font-weight: 700;
+	font-weight: 900;
 	font-family: 'PT Serif', serif;
 	border:3px solid transparent;
+	font-size: 30px;
+	background-color:rgba(0, 0, 0, 0.5);
 }
 
 footer.footBorder {
@@ -82,6 +84,20 @@ footer.footBorder {
 }
 
 /*Main Body Styling*/
+
+h1 {
+	font-size: inherit;
+}
+
+.logoBackground {
+	background-color:rgba(0, 0, 0, 0.5);
+	width:600px;
+	float: right;
+	color:white;
+	text-align: center;
+	border-radius: 10px;
+	
+}
 
 .title {
 	text-align: center;
@@ -130,7 +146,7 @@ footer.footBorder {
 
 #logo {
 	width:100%;
-	color:white;
+	color:black;
 	height:600px;
 	text-align: right;
 	background-image: url("/img/FullSizeR3.jpg");
@@ -141,6 +157,8 @@ footer.footBorder {
 	background-size:cover;
 	background-position:center;
 	padding-top:80px;
+	font-size: 60px;
+	font-weight: bold;
 }
 
 
