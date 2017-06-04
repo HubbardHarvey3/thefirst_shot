@@ -21,10 +21,14 @@ nav>div.container{
 }
 
 .sticky {
-	background-color: rgba(0, 0, 0, 1);
-	border-bottom: solid 5px black;
+	background-color: rgba(8, 43, 70, 1);
+	border-bottom: solid 5px #6e2405;
 	color:black;
 	width:100%;
+}
+
+.navButton.sticky {
+	background-color: rgba(8, 43, 70, 1);
 }
 
 .navBorder {
@@ -34,34 +38,34 @@ nav>div.container{
 
 .oneMore.navButton:hover {
 	color:white;
-	border:3px solid black;
+	/*border:3px solid black;*/
 	margin:10px 10px;
-	background-color: inherit;
+	background-color: rgb(8, 43, 70);
 }
 
 .oneMore.navButton:focus {
 	color:white;
 	margin:10px 10px;
-	background-color: inherit;
+	background-color: rgb(8, 43, 70);
 }
 
 .navButton {
 	border-radius: 10px;
 	margin:10px 10px;
-	color:white;
+	color:rgba(8, 43, 70, 1);
 	font-weight: 900;
 	font-family: 'PT Serif', serif;
-	border:3px solid transparent;
-	font-size: 30px;
-	background-color:rgba(0, 0, 0, 0.5);
+	/*border:3px solid rgba(8, 43, 70, 1);*/
+	font-size: 25px;
+	background-color:rgba(255, 255, 255, .9);
 }
 
 footer.footBorder {
-	border-top: solid 5px black;
+	border-top: solid 5px #6e2405;
 	letter-spacing: 2px;
 	font-size: 20px;
 	background-color: white;
-	color:black;
+	column-rule: #6e2405;
 	height:20px;
 }
 
@@ -91,28 +95,40 @@ h1 {
 
 .logoBackground {
 	background-color:rgba(0, 0, 0, 0.5);
-	width:600px;
 	float: right;
 	color:white;
-	text-align: center;
+	/*text-align: center;*/
 	border-radius: 10px;
-	
+	opacity: .9;
 }
 
 .title {
 	text-align: center;
 	text-shadow: 2px 2px 2px #aaa;
-	color: #fff;
+	font-weight: bolder;
+	color: white;
 	letter-spacing: 2px;
 	font-size: 60px;
 }
 
+.hyper>a:link {
+	color:white;
+}
+
+.hyper>a:hover {
+	color:white;
+}
+
+.hyper>a:focus {
+	color:white;
+}
+
 .text {
 	color: white;
-	background-color: #000000;
+	background-color: rgb(79, 107, 71);
 	letter-spacing: 1px;
 	font-size: 30px;
-	border: solid 3px #9ea2a8;
+	border: solid 3px #6e2405;
 	border-radius: 25px;
 	-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
@@ -121,18 +137,22 @@ h1 {
 }
 
 .test {
-	background-color: #ffffff;
-	color: #000;
+	background-color: rgba(8, 43, 70, 1);
+	color: white;
 	font-family: 'PT Serif', serif;
 	margin-bottom: 200px ;
-	text-align: center;
 	font-size: 22px;
 	font-style: italic;
-	border: solid 3px #000;
+	border: solid 3px #6e2405;
 	-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-	
+	padding: 0 30px;
+	text-align: center;
+}
+
+#testOne{
+	margin-top: 200px;
 }
 
 #heading {
@@ -146,7 +166,6 @@ h1 {
 
 #logo {
 	width:100%;
-	color:black;
 	height:600px;
 	text-align: right;
 	background-image: url("/img/FullSizeR3.jpg");
@@ -156,9 +175,10 @@ h1 {
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
-	padding-top:80px;
+	padding-top:100px;
 	font-size: 60px;
 	font-weight: bold;
+	border-bottom: solid 10px #6e2405;
 }
 
 

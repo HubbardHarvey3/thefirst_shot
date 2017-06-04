@@ -24,7 +24,7 @@ $('a').click(function() {
 	    distance: '200px',
 	});
 	
-	sr.reveal('#logo>h1', { 
+	sr.reveal('#logo>img', { 
 	    duration: 2500,
 	    origin:'left',
 	    distance: '2000px',
