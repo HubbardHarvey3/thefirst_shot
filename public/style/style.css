@@ -7,6 +7,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*Delete the section margins if testimonials are used!*/
+section {
+	margin: 30px;
+}
+
 /*Navigation and Footer Style*/
 
 nav>div {
@@ -37,27 +42,26 @@ nav>div.container{
 }
 
 .oneMore.navButton:hover {
-	color:white;
+	color:rgb(8,43,70);
 	/*border:3px solid black;*/
 	margin:10px 10px;
-	background-color: rgb(8, 43, 70);
+	background-color: rgba(255, 255, 255, .9);
 }
 
 .oneMore.navButton:focus {
-	color:white;
+	color:rgb(8,43,70);
 	margin:10px 10px;
-	background-color: rgb(8, 43, 70);
+	background-color: rgba(255, 255, 255, .9);
 }
 
 .navButton {
 	border-radius: 10px;
 	margin:10px 10px;
-	color:rgba(8, 43, 70, 1);
+	color:white;
 	font-weight: 900;
 	font-family: 'PT Serif', serif;
-	/*border:3px solid rgba(8, 43, 70, 1);*/
 	font-size: 25px;
-	background-color:rgba(255, 255, 255, .9);
+	background-color:rgba(8, 43, 70, .9)
 }
 
 footer.footBorder {
@@ -93,14 +97,7 @@ h1 {
 	font-size: inherit;
 }
 
-.logoBackground {
-	background-color:rgba(0, 0, 0, 0.5);
-	float: right;
-	color:white;
-	/*text-align: center;*/
-	border-radius: 10px;
-	opacity: .9;
-}
+
 
 .title {
 	text-align: center;
@@ -128,7 +125,7 @@ h1 {
 	background-color: rgb(79, 107, 71);
 	letter-spacing: 1px;
 	font-size: 30px;
-	border: solid 3px #6e2405;
+	border: solid 10px #6e2405;
 	border-radius: 25px;
 	-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
@@ -164,6 +161,14 @@ h1 {
 	font-size: 30px;
 }
 
+.logoBackground {
+	float: right;
+	color:white;
+	border-radius: 10px;
+	opacity: .9;
+	background-color: rgb(8, 43, 70);
+}
+
 #logo {
 	width:100%;
 	height:600px;
@@ -179,6 +184,7 @@ h1 {
 	font-size: 60px;
 	font-weight: bold;
 	border-bottom: solid 10px #6e2405;
+	
 }
 
 
