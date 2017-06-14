@@ -169,6 +169,17 @@ h1 {
 	background-color: rgba(255, 255, 255, .8);
 }
 
+img.logoBackgroundBody {
+	position:absolute;
+	border:solid 2px #6e2405;
+	right:16%;
+	margin-top: 20px;
+	color:white;
+	border-radius: 10px;
+	/*opacity: .9;*/
+	background-color: rgba(255, 255, 255, .8);
+}
+
 #logo {
 	width:100%;
 	height:600px;
@@ -184,8 +195,4 @@ h1 {
 	font-size: 60px;
 	font-weight: bold;
 	border-bottom: solid 10px #6e2405;
-	
 }
-
-
-
