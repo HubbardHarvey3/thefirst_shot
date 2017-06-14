@@ -97,7 +97,9 @@ h1 {
 	font-size: inherit;
 }
 
-
+.contentHeader {
+	padding-left: 97.99px;
+}
 
 .title {
 	text-align: center;
@@ -169,11 +171,13 @@ h1 {
 	background-color: rgba(255, 255, 255, .8);
 }
 
+
+
 img.logoBackgroundBody {
-	position:absolute;
+	z-index: 1;
 	border:solid 2px #6e2405;
-	right:16%;
-	margin-top: 20px;
+	float: right;
+	
 	color:white;
 	border-radius: 10px;
 	/*opacity: .9;*/
