@@ -73,6 +73,19 @@ footer.footBorder {
 	height:20px;
 }
 
+#copyright a{
+    color:black;
+}
+
+#copyright a:hover, #copyright a:focus {
+    color:black;
+    background-color: inherit;
+}
+
+#copyright a:link, #copyright a:visted  {
+    color:inherit;
+}
+
 .fa-facebook {
 	color: white!important;
 	padding:10px 14px!important;
@@ -188,7 +201,7 @@ img.logoBackgroundBody {
 	width:100%;
 	height:600px;
 	text-align: right;
-	background-image: url("../img/FullSizeR3.jpg");
+	background-image: url("../img/FullSizeR3-compressor.png");
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

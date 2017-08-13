@@ -20,8 +20,8 @@ $('a').click(function() {
 	
 	sr.reveal('.navbar', { 
 	    duration: 1500,
-	    origin:'bottom',
-	    distance: '200px',
+	    origin:'left',
+	    distance: '100px',
 	});
 	
 	sr.reveal('#logo>img', { 
