@@ -78,8 +78,8 @@ footer.footBorder {
 }
 
 #copyright a:hover, #copyright a:focus {
-    color:black;
-    background-color: inherit;
+    color:black !important;
+    background-color: inherit !important;
 }
 
 #copyright a:link, #copyright a:visted  {
